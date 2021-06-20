@@ -86,7 +86,7 @@ void read_bitmap(char location[50])
 int main(void)
 {
 	char location[50];
-	printf("hos geldiniz lutfen dosyanin bulundugu lokasyonu giriniz "); //C:\\Users\\ozgur\\Desktop\\input.txt
+	printf("hos geldiniz lutfen dosyanin bulundugu lokasyonu giriniz "); 
 	scanf("%s", location);
 	read_bitmap(location);
 	printf("Resimdeki sekil sayisi:");
